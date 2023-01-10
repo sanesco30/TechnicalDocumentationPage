@@ -1,0 +1,135 @@
+html {
+    display: block;
+}
+
+Body {
+    display: block;
+    margin: 4px;
+}
+
+html, body {
+    min-width: 290px;
+    color: #2e2e31;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+* { 
+    scroll-behavior: smooth;
+   }
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    border-right: solid 15px;
+    border-color: rgba(0, 22, 22, 0.6);
+    background-color: rgb(161, 244, 169);
+}
+
+header {
+    text-align: center;
+    font-size: 2.5em;
+    display: block;
+    color: #185630;
+    
+    }
+
+header h1 {
+    text-align: left;
+    font-size: 25px;
+    color: #313188;
+   }
+    
+#navbar ul {
+        height: 88%;
+        padding: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#navbar li {
+    color: #2c2c50;
+    border-top: 2px solid rgba(0, 22, 22, 0.6);
+    list-style: none;
+    position: relative;
+    width: 100%;
+    
+
+}
+
+li {
+    display: list-item;
+    text-align: left;
+    list-style: none;
+    
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 25px;
+    color: #238252;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 110px;
+    top: 0;
+    background-color: rgb(164, 193, 236);
+    }
+
+main {
+    display: block;
+    
+}
+
+code{
+    background-color: rgb(255, 223, 16);
+}
+
+.titulolista {
+    color: #214bac;
+    font-style: italic;
+}
+
+
+@media (min-width: 350px) {
+    body, #navbar {
+        max-width: 300px;
+        max-height: 300px;
+      }
+    }
+
+
+@media (min-width: 576px) {
+    body, #navbar  {
+        max-width: 500px;
+        max-height: 500px;
+      }
+    }
+  
+@media (min-width: 768px) {
+    body, #navbar {
+        max-width: 700px;
+        max-height: 700px;
+      }
+    }
